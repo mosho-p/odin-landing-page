@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img{
+    height: 100px;
+    width: auto;
+    flex: 0;
+}
+
+.header ul {
+    display: flex;
+}
+
+.footer {
+    
+}
