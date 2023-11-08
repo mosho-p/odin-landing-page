@@ -1,6 +1,9 @@
-.body {
+body {
+    margin: 0;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -16,6 +19,24 @@
 
 .header ul {
     display: flex;
+}
+
+.top-content {
+    display: flex;
+}
+
+.top-content img {
+    height: 200px;
+    width: auto;
+}
+
+.winners {
+    display: flex;
+}
+
+.winners img {
+    width: 150px;
+    height: auto;
 }
 
 .footer {
